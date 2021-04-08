@@ -8,7 +8,7 @@ module.exports = ({ env }) => ({
         host: env('DATABASE_HOST', 'localhost'),
         port: env.int('DATABASE_PORT', 3306),
         database: env('DATABASE_NAME', 'strapiblog'),
-        username: env('DATABASE_USERNAME', 'root'),
+        username: env('DATABASE_USERNAME', 'blog'),
         password: env('DATABASE_PASSWORD', '123456'),
       },
       options: {},
